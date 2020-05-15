@@ -1,4 +1,4 @@
 import React from 'react';
-import { Layout } from '../components';
+import { Base } from '../components';
 
-export default () => <Layout>My page</Layout>
+export default () => <Base>My page</Base>;
