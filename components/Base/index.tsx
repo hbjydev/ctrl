@@ -1,7 +1,7 @@
 import React, { ReactNode, CSSProperties } from 'react';
 import { Component } from './style';
 
-const Layout = ({ children, style }: { children?: ReactNode | ReactNode[]; style?: CSSProperties }) => {
+const Base = ({ children, style }: { children?: ReactNode | ReactNode[]; style?: CSSProperties }) => {
     return (
         <Component style={style}>
             {children}
@@ -9,4 +9,4 @@ const Layout = ({ children, style }: { children?: ReactNode | ReactNode[]; style
     );
 };
 
-export default Layout;
+export default Base;
