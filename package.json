@@ -1,23 +1,30 @@
 {
   "name": "@itshaydendev/ctrl",
   "version": "1.0.0",
+  "module": "build/index.esm.js",
+  "main": "build/index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "watch": "tsdx watch"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
+    "react-feather": "^2.0.8",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.9.6",
     "@types/node": "12.0.12",
     "@types/react": "16.8.23",
     "@types/react-dom": "16.8.4",
     "@types/styled-components": "5.0.1",
     "babel-plugin-styled-components": "^1.10.0",
+    "next": "latest",
+    "prettier": "^2.0.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "tsdx": "^0.13.2",
     "typescript": "3.5.2"
   },
   "license": "ISC"
